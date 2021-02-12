@@ -29,5 +29,6 @@
 #      INSERT YOUR OPTIMIZED VERSION HERE
 ##-------------------------------------------
  stopTime = proc.time()
+ 
  elapsedTime = (stopTime - startTime)
  print(elapsedTime)

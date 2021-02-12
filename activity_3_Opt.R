@@ -30,7 +30,7 @@ count_rows_1 <- function(data){
  data <- read.csv("Data/test_data_1.csv")
  print(head(data))
 
- numReps = 5000
+ numReps = 1000
  elapsedTime = system.time(
                 replicate(numReps,      
                           count_rows_1(data))
