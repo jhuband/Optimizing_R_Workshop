@@ -1,0 +1,6 @@
+#!/bin/bash
+
+unzip Data/input-1000.zip	
+module load gcc R
+Rscript SlowCode.R input-1000.txt 1
+rm input-1000.txt
